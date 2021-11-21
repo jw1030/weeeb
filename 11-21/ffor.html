@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>배송정보</legend>
+            <p><label>이름<input type="text"></label></p>
+            <p><label>연락처<input type="tel"></label></p>
+            <p><label>메모 <textarea rows="4" cols="20"></textarea></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>색상 선택</legend>
+            <select>
+                <option value="red">빨간색</option>
+                <option value="blue"></option>
+            </select>
+            <p>
+                <label>포장여부 선택</label>
+                <input type="text" list="packing">
+                <datalist id="packing">
+                    <option value="o">포장 O</option>
+                    <option value="x">포장 X</option>
+                </datalist>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
