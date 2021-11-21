@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>숫자입력하기</h2>
+    <p>
+      <label><input type="checkbox">빨간색</label>
+      <!-- min과 max를 사용해서 숫자 범위를 설정 할 수 있다-->
+      <input type="number" min="0" max="3">개(최대3)
+    </p>
+    <p>
+      <label><input type="checkbox">초록색</label>
+      <!-- value를 통해 최솟값을 설정할 수 있다-->
+      <!-- range는 막대이다-->
+      <input type="range" min="0" max="5" value="1">개(최대5개)
+    </p>
+    <hr>
+    <h1>날짜 입력하기</h1>
+    <input type="date">
+    <input type="month">
+    <input type="week">
+    <input type="date" min="2021-11-15"max="2021-12-25">
+    <hr>
+    <input type="time">
+    <input type="datetime-local">
+    <hr>
+    <!-- submit버튼 제출-->
+    <!-- reset버튼 초기화-->
+    <input type="submit">
+    <input type="reset">
+    <input type="button" value="새 버튼"
+           onclick= "window.open('https://naver.com')">
+    <input type="image" src="사과.jpg">
+    <input type="file">
+</body>
+</html>
