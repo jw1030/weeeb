@@ -7,16 +7,45 @@
 <body>
     <form>
       <fieldset>
-        <legend>회원가입</legend>
-        <label>e-mail<input type="email"></label><br>
-        <label>아이디<input type="text"></label><br>
-        <label>비밀번호<input type="password"></label><br>
-        <label>비밀번호 확인<input type="password"></label><br>
-        <input type="submit"><br>
-        <label>전화번호<input type="tel"></label>
+        <legend><h1>회원가입</h1></legend>
+        <p>
+          <h3><label for="ps2">이메일</label></h3>
+          <input type="text" id="email" required placeholder="이메일">
+        </p>
+        <p>
+          <h3><label for="ps2">아이디</label></h3>
+          <input type="text" id="name" required placeholder="아이디">
+        </p>
+        <p>
+          <h3><label for="ps2">비밀번호</label></h3>
+          <input type="text" id="ps" required placeholder="비밀번호">
+        </p>
+        <p>
+          <h3><label for="ps2">비밀번호 확인</label></h3>
+          <input type="text" id="ps2" required>
+        </p>
+          <h3>비밀번호 복구 질문</h3>
+          태어난 곳은?<input type="radio" name="w">
+          졸업한 학교는?<input type="radio" name="w">
+          좋아하는 게임은?<input type="radio" name="w">
+          비밀번호는?<input type="radio" name="w">
+          계좌 번호는?<input type="radio" name="w">
+        <p>
+          <h3><label for="phone">전화번호</label></h3>
+          <input type="text" id="phone" placeholder="-을 빼고 입력하주세요">
+        </p>
+        <img src="img.png" width="200">
+        <p>
+          <h3><label for="phone">인증</label></h3>
+          <input type="text" id="cap" required placeholder="보이는 것을 적으시오">
+        </p>
+        <p>당신은 로봇입니까
+        <label><input type="radio" name="r" value="o">예</label>
+        <label><input type="radio" name="r" value="x">아니요</label></p>
+        <input type="image" src="img_1.png" ><br>
       </fieldset>
       <fieldset>
-        <legend>이용약관</legend>
+        <legend><h1>이용약관</h1></legend>
         <p>개인정보를 수집을 동의 하십니까</p>
         <label><input type="radio" name="a" value="o">동의</label>
         <label><input type="radio" name="a" value="x">비동의</label>
@@ -31,25 +60,16 @@
         <p>이메일 수신을 동의 하십니까</p>
         <label><input type="radio" name="b" value="o">네</label>
         <label><input type="radio" name="b" value="x">아니요</label>
-        <p>회원가입할 준비가 되셨습니까</p>
-        <label><input type="radio" name="c" value="o">네</label>
-        <label><input type="radio" name="c" value="x">아니요</label>
-        <p>저희 사이트가 해킹 당해서 개인정보가 유출되는 것에 동의 하십니까</p>
-        <label><input type="radio" name="g" value="o">네</label>
-        <label><input type="radio" name="g" value="o">네</label>
-        <p>마음의 준비가 되셨습니까</p>
-        <label><input type="radio" name="q" value="o">네</label>
-        <label><input type="radio" name="q" value="x">아니요</label>
-        <p>정말 회원가입할 준비가 되셨습니까</p>
-        <label><input type="radio" name="e" value="o">네</label>
-        <label><input type="radio" name="e" value="x">아니요</label>
-        <p>다시 한번 묻겠습니다 회원가입할 준비가 되셨습니까????</p>
-        <label><input type="radio" name="m" value="o">네</label>
-        <label><input type="radio" name="m" value="x">아니요</label>
-        <label><input type="radio" name="m" value="x">아니요</label>
-        <p>당신은 로봇입니까</p>
+        <p>당신은 실존합니까</p>
         <label><input type="radio" name="r" value="o">예</label>
         <label><input type="radio" name="r" value="x">아니요</label>
+        <p>당신은 몇시에 태어나셨나요</p>
+        <label><input type="time" ></label>
+        <p>
+          <label for = "q">왜 태어났나요?</label>
+          <input type="text" id="q">
+        </p>
+
       </fieldset>
     </form>
 </body>
