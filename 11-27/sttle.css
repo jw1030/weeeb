@@ -1,0 +1,18 @@
+    <style>
+      *{
+        margin: 0
+      }
+      #container{
+        width: 300px;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid black;
+      }
+      h1,p{
+        text-align:center
+      }
+      .accent{
+        padding:5px;
+        border
+      }
+    </style>
