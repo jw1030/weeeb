@@ -3,25 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>buy</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pacifico&display=swap');
+    #h{
+    color:yellow;
+    text-shadow:2px 3px 3px red
+    }
+    #a{
+    color:green;
+    text-shadow:2px 3px 4px lightgreen
+        }
+      *{
+        margin: 0
+      }
+      #container{
+        width: 300px;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid black;
+      }
+      h1,p{
+        text-align:center
+      }
+      #k{
+      width:30px;
+        font-family:'Pacifico'
+      }
+    </style>
 </head>
 <body>
-    <h1>소프트코튼 드랍숄더 오버핏 와플 니트 BEIGE</h1>
+    <h1 style="text-align: left">소프트코튼 드랍숄더 오버핏 와플 니트</h1>
     <hr>
-    <img src="c.jpg">
+    <img src="c.jpg" style=" float:left;">
+    <div id="container" style=" float:left">
+        <h2>가격</h2>
+        <h1 style="letter-spacing:1em;" id="a">타임세일</h1>
+        <h2 id="h">60,000%</h2>
+        <h3><s>₩50,000</s>-->₩30,000,000</h3>
+        <hr>
+        <h3>상품 옵션</h3>
+        <hr>
+        <label>색상 선택</label>
+        <input type="text" list="packing">
+        <datalist id="packing">
+            <option value="빨간색">JWKKX10</option>
+            <option value="파란색">JWKKX122</option>
+            <option value="베이지색">JWKKX12</option>
+            <option value="초록색">JWKKX1340</option>
+            <option value="검은색">JWKKX5610</option>
+            <option value="흰색">JWKKX09010</option>
+        </datalist>
+        <hr>
+        <h4>사이즈</h4>
+        <hr>
+        <label><input type="radio" name="a" value="XL">XL</label>
+        <label><input type="radio" name="a" value="L">L</label>
+        <label><input type="radio" name="a" VALUE="M">M</label>
+        <hr>
+        <label><input type="number" min="1" max="10" value="1">수량(최대10개)</label>
+        <hr>
+        <input type="button" value="구매하기" style="padding: 25px" onclick="window.open('http://localhost:63342/weeeb/11-21/211121/p.html?_ijt=kg7ceqk0d3unenbt4sccpts4na')">
+    </div>
     <hr>
-    <h2>가격</h2>
-    <h3>50000</h3>
-    <hr>
-    <h3>상품 옵션</h3>
-    <hr>
-    <h4>사이즈</h4>
-    <hr>
-    <label><input type="radio" name="a" value="XL">XL</label>
-    <label><input type="radio" name="a" value="L">L</label>
-    <label><input type="radio" name="a" VALUE="M">M</label>
-    <hr>
-    <label><input type="number" min="1" max="10" value="1">수량(최대10개)</label>
-    <hr>
-    <input type="button" value="구매하기" style="padding: 25px" onclick="window.open('http://localhost:63342/weeeb/11-21/211121/p.html?_ijt=kg7ceqk0d3unenbt4sccpts4na')">
+    <p id="k"><b>Info</b></p>
+    <img src="h.jpg">
+
+
 </body>
 </html>
