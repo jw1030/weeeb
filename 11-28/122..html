@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .s{
+        caption-side: bottom;
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        tr,td{
+        border: 1px dotted black;
+        padding: 10px;
+        text-align: center;
+        }
+        thead tr td {
+        font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <table class="s">
+      <caption>호두과자 가격표</caption>
+      <thead>
+        <tr>
+          <td>용도</td>
+          <td>개수</td>
+          <td>가격</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">선물용</td>
+          <td>25개</td>
+          <td>6000원</td>
+        </tr>
+        <tr>
+            <td>10개</td>
+            <td>12000원</td>
+        </tr>
+        <tr>
+            <td rowspan="2">가정용</td>
+            <td>25개</td>
+            <td>5000원</td>
+        </tr>
+        <tr>
+            <td>10개</td>
+            <td>10000원</td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+</html>
