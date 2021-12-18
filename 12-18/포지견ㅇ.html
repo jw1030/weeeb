@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      p {
+        border: 1px solid black;
+        width: 100px
+      }
+      #pos {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+      }
+      #pos1 {
+      position: absolute;
+      right:100px;
+      top: 100px
+      }
+      #pos2 {
+      position:absolute;
+      left:100px;
+      bottom:100px
+      }
+
+      #pos3 {
+          position:static;
+      }
+       #pos4 {
+          position:relative;
+          left:100px;
+          top:-50px;
+      }
+      #pos6 {
+          position:fixed;
+          right:30px;
+          top:30px;
+      }
+    </style>
+</head>
+<body>
+    <p id="pos">우물위 개구리</p>
+    <p id="pos1">구리개안 우물</p>
+    <p id="pos2">개구리안 우물</p>
+    <!-- static 기본 배치, absolut 부모 요소를 기존으로 위치를 지정, relative 기본 배치를 기준으로 위치를 지정,
+    fixed 브라우저릐 창을 기준으로 지정-->
+    <p id="pos3">우물아래 개구리</p>
+    <p id="pos4">개안에 구리 우물</p>
+    <p id="pos5">개구리안 우물 안 개구리</p>
+    <p id="pos6">개구리가 아닌 구리개개</p>
+</body>
+</html>
