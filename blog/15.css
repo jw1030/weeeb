@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+#q {
+background-color:red;
+color:white
+}
+
+#q1 {
+background-color:green;
+color:white
+}
+
+#q2 {
+background-color:blue;
+color:white
+}
+
+header span {
+font-size:2em;
+padding:10px
+}
+
+nav a {
+font-size:2em;
+padding:30px;
+}
+
+#n {
+float: left;
+width: 30%;
+height:90px;
+background-color:gray;
+}
+
+#h {
+float:left;
+width: 70%;
+height:90px;
+background-color:gray;
+}
+
+#m {
+background:url('Hulk.webp');
+width: 85%;
+height:500px;
+float:right;
+}
+
+#s {
+width: 14.5%;
+height:700px;
+float:left;
+border: 1px solid black;
+}
+
+article span {
+color:white;
+font-size:2em;
+text-align:left;
+}
+
+#e {
+list-style: none;
+}
+
+.w {
+height:100px;
+width:250px;
+padding:40px;
+border: 1px solid black;
+margin: 0px 20px;
+display: inline-block;
+font-size:2em;
+}
+
+footer span {
+font-size:2em
+}
+#i {
+background-color:gray;
+}
+
+aside p {
+font-size:1.3em
+}
