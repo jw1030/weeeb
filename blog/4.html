@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand">Blog-블로그</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav" >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Menu1</a>
+                <a class="nav-link" href="#">Menu2</a>
+            </div>
+        </div>
+    </div>
+</nav>
 
+<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 15%;float:left;height:700px">
+    <span class="fs-4">김재원</span>
+    <p>난 지금 미쳐가고있다.
+        이 헤드폰에 내 모든 몸과
+        영혼을 맡겼다.
+
+        음악만이 나라에서 허락하는
+        유일한 마약이니까
+
+        이게 바로 지금의 나다</p>
+</div>
+
+<div>
+    <article style="width:85%;height:500px;float:LEFT;">
+        <center>
+            <img src="img_1.png"  style="width:1600px;height:490px">
+        </center>
+    </article>
+</div>
+<ul style="list-style: none;">
+    <li style="height:270px;width:350px;padding:50px;border: 1px solid black;margin: 0px 20px;display: inline-block;font-size:2em;">글1</li>
+    <li style="height:270px;width:350px;padding:50px;border: 1px solid black;margin: 0px 20px;display: inline-block;font-size:2em;">글2</li>
+</ul>
+<div class="container">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Menu1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Menu2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2007 Company, Inc</p>
+    </footer>
+</div>
 </body>
 </html>
