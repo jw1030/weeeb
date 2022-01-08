@@ -51,7 +51,7 @@ float:right;
 }
 
 #s {
-width: 14.5%;
+width: 14%;
 height:700px;
 float:left;
 border: 1px solid black;
@@ -86,4 +86,47 @@ background-color:gray;
 
 aside p {
 font-size:1.3em
+}
+
+.a {
+   border: 3px solid black;
+   border-collapse: collapse;
+}
+
+.y{
+width:500px;
+padding: 5px;
+margin:10px;
+background-color:rgb(136,171,255)
+}
+
+tr,td{
+    border: 1px dotted black;
+    padding: 5px;
+    text-align: left;
+}
+
+tbody {
+border: 1px solid;
+width:200px
+}
+
+tr {
+border: 1px solid;
+width:50px
+}
+
+td{
+border: 1px solid;
+width:400px
+}
+
+.ll {
+border: 1px solid;
+width:70px;
+text-align: center
+}
+
+.ww {
+background-color:rgb(120,170,255)
 }
