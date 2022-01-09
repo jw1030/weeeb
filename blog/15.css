@@ -4,19 +4,16 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP
 
-#q {
-background-color:red;
+a:link {
+  color : white;
+}
+a:visited {
+  color : white;
+}
+
+.q {
 color:white;
-}
-
-#q1 {
-background-color:green;
-color:white
-}
-
-#q2 {
-background-color:blue;
-color:white
+text-decoration:none
 }
 
 header span {
@@ -144,4 +141,8 @@ width:500px;
 padding: 5px;
 margin:10px;
 background-color:rgb(180,254,179)
+}
+
+#w1 {
+href
 }
