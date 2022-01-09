@@ -2,8 +2,9 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>글2</title>
+    <title>Article2</title>
     <link rel="stylesheet" href="15.css">
+    <script src="12.js"></script>
 </head>
 <body>
     <div id = "k">
@@ -11,10 +12,11 @@
             <span>BLOG</span>
             <span>블로그</span>
         </header>
-        <nav id ="n">
-            <a href="main_blog.html" class="q">HOME</a>
-            <a href="글1.html" class="q">Article1</a>
+        <nav id ="n" style="float:right;">
+            <a href="gallery.html" class="q">Gallery</a>
             <a href="글2.html" class="q">Article2</a>
+            <a href="글1.html" class="q">Article1</a>
+            <a href="main_blog.html" class="q">HOME</a>
         </nav>
     </div>
     <hr>
@@ -38,10 +40,16 @@
         <h1></h1>
     </div>
     <div>
-        <footer id="i">
+        <div id="c">댓글<span id="co">0</span></div>
+        <input id="comment-input" placeholder = "댓글을 입력해주세요">
+        <button id="submit" value="입력 "></button>
+    </div>
+    <footer id="i">
+        <br>
+        <div>
             <span>BLOG</span>
             <span>블로그</span>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
