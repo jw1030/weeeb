@@ -81,8 +81,12 @@ font-size:2em;
 footer span {
 font-size:2em
 }
+
 #i {
 background-color:gray;
+margin-top:10px;
+height:70px;
+color:white;
 width:100%;
 float:left
 }
@@ -92,8 +96,8 @@ font-size:1.3em
 }
 
 .a {
-   border: 3px solid black;
-   border-collapse: collapse;
+border: 3px solid black;
+border-collapse: collapse;
 }
 
 .y{
@@ -104,9 +108,9 @@ background-color:rgb(136,171,255)
 }
 
 tr,td{
-    border: 1px dotted black;
-    padding: 5px;
-    text-align: left;
+border: 1px dotted black;
+padding: 5px;
+text-align: left;
 }
 
 tbody {
@@ -248,4 +252,88 @@ height: 3.3em;
 font-size: 15px;
 font-weight: bold;
 color: aliceblue;
+}
+
+.ce{
+font-size:3em;
+margin-bottom:10px
+}
+
+.ddd{
+width:1500px;
+margin-top:50px;
+border:0px;
+border:0px
+}
+
+.la{
+width: 1500px;
+height: 3.3em;
+}
+
+.hh{
+font-weight: bold;
+border:solid 1px
+}
+
+.chat{
+background-color:rgb(230,230,230);
+width:1560px;
+height:170px;
+margin-top:15px
+}
+
+.chat1{
+background-color:rgb(230,230,230);
+width:1560px;
+height:200px;
+margin-top:15px
+}
+
+.cs1{
+float:left;
+margin-top:10px;
+float:top;
+width:120px;
+height:5px
+}
+
+.cs2{
+float:left;
+margin-top:10px;
+float:top;
+width:130px;
+height:5px
+}
+
+.cs4{
+float:left;
+margin-top:10px;
+float:top;
+width:140px;
+height:5px
+}
+
+.cs{
+float:left;
+float:top;
+width:150px;
+height:5px
+}
+
+#s1{
+width: 14%;
+height:900px;
+float:left;
+border: 1px solid black;
+}
+
+#eo {
+width:59%;
+float:right
+}
+
+#eo1{
+width:85%;
+float:right
 }
